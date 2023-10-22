@@ -1,0 +1,75 @@
+body {
+    background-color: lightgrey;
+    margin: 0px;
+    font-family: comic sans ms;
+}
+
+header {
+    background-color: white;
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.pageTitle {
+    text-align: center;
+    padding: 10px;
+}
+
+.feed {
+    justify-content: center;
+}
+
+div.feed {
+    width: 600px;
+    margin: auto;
+}
+
+
+.post {
+    background-color: white;
+    margin-top: 20px;
+}
+
+.postTitle {
+    display: flex;
+}
+
+div.post h2 {
+    padding: 10px;
+    margin: 0;
+    width: 80%;
+}
+
+.postBody {
+    display: flex;          
+    justify-content: center; 
+    align-items: center;     
+    height: 100%;
+}
+
+.postfooter {
+    margin: 5px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+}
+
+h5 {
+    margin-left: 5px;
+}
+
+span {
+    text-align: right;
+    width: 20%;
+    vertical-align: center;
+    padding-right: 10px;
+    padding-top: 15px;
+    color: grey;
+}
